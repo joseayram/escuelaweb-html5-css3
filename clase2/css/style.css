@@ -1,0 +1,22 @@
+body {
+    font-family: Helvetica;
+    font-size: 1em;
+    font-weight: normal;
+    color: #575757;
+    background-image: url(../images/animals-q-c-640-480-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    border: 10px #3b53a2 solid;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    background-color: darkgray;
