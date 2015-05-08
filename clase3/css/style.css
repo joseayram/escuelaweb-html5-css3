@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-family: Helvetica;
+}
+
+/* Selector por Clase */
+
+.texto-rosado {
+    color: pink;
+}
+
+.texto-rojo {
+    color: red;
+}
+
+.fondo-blanco {
+    background-color: white;
+    color: black;
+}
+
+.fondo-azul {
+    background-color: blue;
+    color: white;
+}
+
+/* Selector de ID */
+#seccion-principal {
+    background-color: white;
+    color: black;
+}
+
+/* Selector de Cascada */
+
+.noticia {
+    border: 2px solid #000;
+}
+
+.noticia p {
+    font-size: 0.8em;
+    color:brown;
+}
+
+/* Selector Múltiple */
+.noticia, 
+h3, 
+.texto-rojo {
+    text-align: center;
+}
+
+/* Selector Incluyente, de presencia forzada */
+span.texto-rojo {
+    font-weight: bold;
+}
+
+
+
