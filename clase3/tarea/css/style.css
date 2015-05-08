@@ -1,0 +1,96 @@
+/* Por Etiqueta */
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    color: white;
+}
+
+header {
+    background-color: #27ae60;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+aside {
+    background-color: #302C2D;
+    text-align: right;
+}
+
+a {
+    color: #fff;
+}
+
+/* Por Cascada */
+
+header h1 {
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+footer a {
+    color: #3b4350;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside a {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+p abbr {
+    color: black;
+}
+
+/* Por Clase */
+
+.summary {
+    font-style: italic;
+    background-color: #2ecc71;
+}
+
+.preamble {
+    background-color: #F27A67;
+}
+
+.explanation {
+    background-color: #527BBC;
+}
+
+.participation {
+    background-color: #F4A13E;
+}
+
+.benefits {
+    background-color: #543E67;
+}
+
+.requirements {
+    background-color: #6D6571;
+}
+
+/* Por ID */
+
+#zen-preamble {
+    color:azure;
+    font-size: 0.9em;
+}
+
+#zen-supporting {
+    color: floralwhite;
+    font-size: 1.1em;
+}
