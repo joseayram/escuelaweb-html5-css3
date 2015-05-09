@@ -21,3 +21,13 @@ h6 {
     width: 24.5%;
     text-align: left;
 }
+
+.tipo-tabla {
+    border: 2px solid #ea0012;
+}
+
+.tipo-tabla .elemento {
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+}
