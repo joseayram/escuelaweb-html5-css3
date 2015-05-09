@@ -32,6 +32,13 @@ h6 {
     vertical-align: middle;
 }
 
+.tipo-float:after,
+.tipo-float:before {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 .tipo-float {
     border: 2px solid #41448b;
 }
@@ -39,8 +46,4 @@ h6 {
 .tipo-float .elemento {
     width: 25%;
     float: left;
-}
-
-.clearfix {
-    clear: both;
 }
