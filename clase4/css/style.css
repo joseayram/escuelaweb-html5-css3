@@ -31,3 +31,12 @@ h6 {
     width: 1%;
     vertical-align: middle;
 }
+
+.tipo-float {
+    border: 2px solid #41448b;
+}
+
+.tipo-float .elemento {
+    width: 25%;
+    float: left;
+}
