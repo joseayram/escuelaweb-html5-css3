@@ -40,3 +40,7 @@ h6 {
     width: 25%;
     float: left;
 }
+
+.clearfix {
+    clear: both;
+}
