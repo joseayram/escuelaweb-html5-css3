@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+}
+
+section {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 5px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+article {
+    border: 1px solid #c5c5c5;
+    background-color: #f5f5f5;
+    color: #040634
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 5px;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item { 
+    flex-basis: auto;
+}
+
+.item-01 {
+    order: 2;
+}
+
+.item-02 {
+    order: 3;
+}
+
+.item-03 {
+    order: 1;
+}

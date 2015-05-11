@@ -1,7 +1,3 @@
-section {
-    background-color: beige;
-}
-
 .row {
     max-width: 940px;
     margin-left: auto;
@@ -38,3 +34,49 @@ section {
 .column-10 { width: 83.6666%; }
 .column-11 { width: 91.6666%; }
 .column-12 { width: 100%;     }
+
+/* 1200px en adelante */
+@media (min-width: 1200px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    
+    .row {
+        max-width: 1200px;
+    }
+}
+/* mayor a 768px pero menor a 940px | Table en portrait (vertical) */
+@media (min-width: 768px) and (max-width: 940px) {
+    body {
+        background-color: darkslategrey;
+        color: cornsilk;
+    }
+    
+    .row {
+        max-width: 768px;
+    }
+}
+    
+/* menor a 768px */
+@media (max-width: 768px) {
+    body {
+        background-color: darkolivegreen;
+        color: white;
+    }
+    
+    .column-01,
+    .column-02,
+    .column-03,
+    .column-04,
+    .column-05,
+    .column-06,
+    .column-07,
+    .column-08,
+    .column-09,
+    .column-10,
+    .column-11,
+    .column-12 {
+        width: 100%;
+    }
+}
