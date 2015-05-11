@@ -1,3 +1,7 @@
+section {
+    background-color: beige;
+}
+
 .column {
     float: left;
 }
