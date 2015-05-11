@@ -2,7 +2,11 @@ section {
     background-color: beige;
 }
 
-.row { }
+.row {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .row:after,
 .row:before {
