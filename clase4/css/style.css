@@ -55,5 +55,6 @@ header {
 .ancho-maximo {
     max-width: 940px;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
+    box-sizing: border-box;
 }
