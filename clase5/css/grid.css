@@ -2,6 +2,15 @@ section {
     background-color: beige;
 }
 
+.row { }
+
+.row:after,
+.row:before {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 .column {
     float: left;
 }
