@@ -44,6 +44,18 @@ section {
     background-color: #9E54BD;
 }
 
+.seccion-6 {
+    background-color: #0E83CD;
+}
+
+.seccion-7 {
+    background-color: #2ECC71;
+}
+
+.seccion-8 {
+    background-color: #ECF0F1;
+}
+
 /* General button style (reset) */
 .btn {
 	background: none;
