@@ -1,0 +1,53 @@
+body {
+    padding-top: 20px;
+}
+
+ul li a {
+    color: #777;
+    font-weight: bold;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff
+    
+}
+
+ul li a:hover {
+    color: #777;
+
+}
+
+ul li.active a {
+    background-color: #DDDDDD;
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    
+}
+
+.active {
+    background-color: #DDDDDD;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.first {
+    border-left: none;
+}
+
+.last {
+    border-right: none;
+}
+
+.nav-justified {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+}

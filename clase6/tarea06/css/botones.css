@@ -1,0 +1,118 @@
+*, 
+*:after, 
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color: #89867e;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+section {
+    margin: 0 auto;
+    padding: 5em 3em;
+}
+
+.seccion-1 {
+    background-color: #0E83CD;
+}
+
+.seccion-2 {
+    background-color: #F06060;
+}
+
+.seccion-3 {
+    background-color: #FCD04B;
+}
+
+.seccion-4 {
+    background-color: #2ECC71;
+}
+
+.seccion-5 {
+    background-color: #9E54BD;
+}
+
+/* General button style (reset) */
+.btn {
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+/* Botón 1a */
+.btn-1a:hover {
+    color: #0E83CD;
+    background-color: #fff;
+}
+
+/* Botón 1b */
+.btn-1b:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+.btn-1b:hover,
+.btn-1b:active {
+    color: #0E83CD;
+}
+
+.btn-1b:hover:after,
+.btn-1b:active:after {
+    height: 100%;
+}
+
+/* Botón 1c */
+.btn-1c:after {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.btn-1c:hover,
+.btn-1c:active {
+	color: #0E83CD;
+}
+
+.btn-1c:hover:after,
+.btn-1c:active:after {
+	width: 100%;
+}

@@ -1,0 +1,112 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.boton {
+    margin: 0.3em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: #322f7c;
+    color: #fff;
+    border-bottom: 0.3em solid #28274e;
+    border-right: 0.3em solid #28274e;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0.3em;
+    box-shadow: 0.3em 0.3em 0.5em 0 #000;/* x y blur spread color */
+    text-shadow: 0.1em 0.1em 0 #000;
+    transition: all 0.5s ease;
+    /*transform: rotate(45deg,45deg,45deg)*/
+    
+}
+
+.boton:hover {
+    background-color: #6561e3;
+}
+
+.boton:active {
+    background-color: #7d79ff;
+    border-bottom: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: relative;
+    top: 0.1em;
+}
+
+/*
+.boton:visited {
+    background-color: #000;
+}
+*/
+
+.boton-imagen {
+    background-image: url(../img/sprite_botones.png);
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.boton-imagen:hover {
+    background-position: 0 -70px;
+}
+
+.boton.boton-verde {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+}
+
+.boton.boton-verde:hover {
+    background-color: #38ea83;
+}
+
+.boton.boton-rojo {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+}
+
+.boton.boton-rojo:hover {
+    background-color: #ff6353;
+}
+
+.boton.boton-amarillo {
+    background-color: #f1c40f;
+    border-color: #f39c12;
+}
+
+.boton.boton-amarillo:hover {
+    background-color: #ffdf60;
+}
+
+.boton.boton-morado {
+    background-color: #9b59b6;
+    border-color: #8e44ad;
+}
+
+.boton.boton-morado:hover {
+    background-color: #bc6bdd;
+}
+
+.boton.boton-oscuro {
+    background-color: #34495e;
+    border-color: #2c3e50;
+}
+
+.boton.boton-oscuro:hover {
+    background-color: #597693;
+}
+
+.boton-mini {
+    font-size: 0.8em;
+}
+
+.boton-medio {
+    font-size: 1.2em;
+}
+
+.boton-largo {
+    font-size: 1.6em;
+}
+
+.boton-bloque {
+    display: block;
+    text-align: center;
+}

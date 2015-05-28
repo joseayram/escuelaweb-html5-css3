@@ -1,0 +1,35 @@
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row:after,
+.row:before {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.row .row {
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.column {
+    float: left;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.column-01 { width:  8.3333%; } /* 12 -> 100% -> 100%/12 = 8.3333% */
+.column-02 { width: 16.6666%; } 
+.column-03 { width: 25%;      }
+.column-04 { width: 33.3332%; }
+.column-05 { width: 41.6665%; }
+.column-06 { width: 50%;      }
+.column-07 { width: 58.3331%; }
+.column-08 { width: 66.6664%; } 
+.column-09 { width: 75%;      }
+.column-10 { width: 83.6666%; }
+.column-11 { width: 91.6666%; }
+.column-12 { width: 100%;     }

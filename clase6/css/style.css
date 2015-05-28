@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+}
+
+.posicion-relativa,
+.posicion-fija,
+.posicion-absoluta {
+    width: 200px;
+    height: 200px;
+}
+
+.posicion-relativa { 
+    background-color: aqua;
+    position: relative;
+    top: 10em;
+    left: 10px;
+    z-index: 5;
+}
+
+.posicion-fija { 
+    background-color: darkolivegreen;
+}
+
+.posicion-absoluta {
+    background-color: blueviolet;
+}
